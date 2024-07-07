@@ -5,6 +5,7 @@ Increase your views on Streamable
 2. Requirements:
 websocket (pip install websocket)
 
+Steps:
 - Launch streamable.py using console/powershell (py streamable.py)
 - Enter link of streamable video
 - Enter count of threads
