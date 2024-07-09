@@ -31,5 +31,4 @@ def send_message():
 
 with ThreadPoolExecutor(max_workers=int(threads)) as executor:
     for _ in range(int(threads)):
-        print(threads)
         executor.submit(send_message)
