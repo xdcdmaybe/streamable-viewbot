@@ -6,7 +6,7 @@ import uuid
 import re
 import sys
 views = 0
-print('by https://github.com/exploreof')
+print('by https://github.com/xdcdmaybe')
 link = input('link: ')
 id = re.search(r'https://streamable.com/(\w+)', link)
 threads = input('enter threads: ')
